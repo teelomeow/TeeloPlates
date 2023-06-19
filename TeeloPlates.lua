@@ -6,16 +6,15 @@ local db
 local isRetail = (WOW_PROJECT_ID == WOW_PROJECT_MAINLINE)
 
 local defaults = {
-    db_version = 1.3,
-    nameplatesize = 1,
-    namesize = 10,
-    pvpicon = false,
+    db_version = 1.0,
+    namesize = 15,
+    pvpicon = true,
 	arenanumbers = true,
-    friendlynameplate = 1,
+    friendlynameplate = 2,
     friendlynameplatecolor = {r = 0, g = 1, b = 0},
-    friendlyname = 2,
+    friendlyname = 1,
     friendlynamecolor = {r = 1, g = 1, b = 1},
-    enemynameplate = 2,
+    enemynameplate = 1,
     enemynameplatecolor = {r = .75, g = .05, b = .05},
     enemyname = 1,
     enemynamecolor = {r = 1, g = 0, b = 0}
