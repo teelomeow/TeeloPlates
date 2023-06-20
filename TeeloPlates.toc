@@ -1,10 +1,11 @@
 ## Interface: 100100
-## Version: v1.3.3.7
+## Version: v1.0.0
 ## Title: TeeloPlates
 ## Notes: Dang those are some nice nameplates
 ## Author: Teelo
 ## SavedVariables: TeeloPlatesDB
 ## OptionalDeps: Ace3
+## X-Curse-Project-ID: 101116
 
 #@no-lib-strip@
 Libs\LibStub\LibStub.lua

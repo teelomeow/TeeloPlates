@@ -369,7 +369,7 @@ f:RegisterEvent("ZONE_CHANGED_NEW_AREA")
 f:RegisterEvent("ADDON_LOADED")
 f:SetScript("OnEvent", f.OnEvent)
 
-for i, v in pairs({"nc", "namecolors", "nameplatecolors"}) do
+for i, v in pairs({"tp", "teeloplates"}) do
     _G["SLASH_NAMEPLATECOLORS" .. i] = "/" .. v
 end
 
